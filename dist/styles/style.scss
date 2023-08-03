@@ -5,6 +5,19 @@
     padding: 0;
     font-family: 'Roboto', sans-serif;  
 }
+form,
+input,
+textarea,
+select,
+button {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: none;
+  font: inherit;
+  color: inherit;
+  outline: none;
+}
 body{
     display: flex;
     flex-direction: column;
@@ -29,7 +42,7 @@ body{
         
         h1{
             padding-top: 20px;
-            padding-bottom: 20px;
+            padding-bottom: 15px;
             color: $darkSlateGrey;
             font-size: 52px;
         }
@@ -47,6 +60,37 @@ body{
         form{
             display: flex;
             flex-direction: column;
+        }
+        label{
+            color: $darkSlateGrey;
+        }
+        #emailLabel{
+            padding-top: 40px;
+            font-weight: bold;
+            color: $darkSlateGrey;
+        }
+        #emailInput{
+            margin-top: 10px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            height: 50px;
+            
+            outline: $grey 1px solid;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-left: 20px;
+            font-size: 16px;
+            &:hover{
+                border-color: $darkSlateGrey;
+            }
+        }
+        #submit{
+            height: 50px;
+            border-radius: 10px;
+            color: $white;
+            background-color: $darkSlateGrey;
+            font-size: 16px;
         }
     }
 

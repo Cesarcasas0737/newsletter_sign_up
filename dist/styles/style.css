@@ -4,6 +4,20 @@
   font-family: "Roboto", sans-serif;
 }
 
+form,
+input,
+textarea,
+select,
+button {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: none;
+  font: inherit;
+  color: inherit;
+  outline: none;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -29,7 +43,7 @@ body {
 }
 #content .left-content h1 {
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 15px;
   color: hsl(234, 29%, 20%);
   font-size: 52px;
 }
@@ -47,6 +61,36 @@ body {
 #content .left-content form {
   display: flex;
   flex-direction: column;
+}
+#content .left-content label {
+  color: hsl(234, 29%, 20%);
+}
+#content .left-content #emailLabel {
+  padding-top: 40px;
+  font-weight: bold;
+  color: hsl(234, 29%, 20%);
+}
+#content .left-content #emailInput {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  height: 50px;
+  outline: hsl(231, 7%, 60%) 1px solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 20px;
+  font-size: 16px;
+}
+#content .left-content #emailInput:hover {
+  border-color: hsl(234, 29%, 20%);
+}
+#content .left-content #submit {
+  height: 50px;
+  border-radius: 10px;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(234, 29%, 20%);
+  font-size: 16px;
 }
 #content .right-content {
   width: 100%;
