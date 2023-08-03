@@ -67,10 +67,19 @@ body {
 #content .left-content label {
   color: hsl(234, 29%, 20%);
 }
-#content .left-content #emailLabel {
+#content .left-content .label-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#content .left-content .email-label {
   padding-top: 40px;
   font-weight: bold;
+  font-size: 12px;
   color: hsl(234, 29%, 20%);
+}
+#content .left-content .error-signup {
+  color: hsl(4, 100%, 67%);
 }
 #content .left-content #emailInput {
   margin-top: 10px;
@@ -93,6 +102,7 @@ body {
   color: hsl(0, 0%, 100%);
   background-color: hsl(234, 29%, 20%);
   font-size: 16px;
+  font: bold;
 }
 #content .left-content #submit:hover {
   background: linear-gradient(135deg, #ff5478, #ff693e);
