@@ -1,0 +1,25 @@
+@import "./colors";
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;  
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: $charcoalGrey;
+}
+#content{
+    display: flex;
+    flex-direction: row;
+    
+    width: 30vw;
+    height: 30vh;
+    background-color: $white;
+    p{
+        font-size: 16px;
+    }
+}

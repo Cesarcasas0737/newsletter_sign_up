@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/Cesarcasas0737/newsletter_sign_up#readme",
   "devDependencies": {
+    "sass": "^1.64.2",
     "webpack-cli": "^5.1.4"
   }
 }
