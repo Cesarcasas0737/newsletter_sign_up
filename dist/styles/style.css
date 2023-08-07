@@ -78,7 +78,7 @@ body {
   font-size: 12px;
   color: hsl(234, 29%, 20%);
 }
-#content .left-content .error-signup {
+#content .left-content .error-label {
   color: hsl(4, 100%, 67%);
 }
 #content .left-content #emailInput {
